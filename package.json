@@ -1,0 +1,13 @@
+{
+  "name": "Hint",
+  "desciption": "Messages",
+  "version": "0.0.0",
+  "main": "Hint.py",
+  "scripts": {
+    "start": "node Hint.py"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+	"request": "2.81.0"
+	}
+}	
