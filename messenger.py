@@ -31,4 +31,4 @@ async def on_message(message):
             f"{message.author.name}#{message.author.discriminator} <{message.author.id}>: {message.content}"
         )   #SENDS THE MESSAGE SENT TO THE BOT, TO THE OWNER
 	
-bot.run(key.strip())
+bot.run(key, bot=False)
